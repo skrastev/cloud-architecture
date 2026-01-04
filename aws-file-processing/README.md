@@ -215,7 +215,7 @@ GitHub Repository
 
 ### Key Metrics
 
-| Metric | Direct S3 → Lambda, no filterin | 3 filtering → SQS → Lambda batch processing | Improvement |
+| Metric | Direct S3 → Lambda, no filterin | S3 filtering → SQS → Lambda batch processing | Improvement |
 |--------|--------|-------|-------------|
 | Lambda Invocations | 100,000/day | 1,000/day | **99% reduction** |
 | Processing Time/File | 4.2s | 0.6s | **86% faster** |
@@ -291,4 +291,4 @@ This architecture scales effortlessly from 100K to 1M+ files per day by simply a
 
 ---
 
-**Tech Stack:** Amazon S3, Amazon SQS, AWS Lambda (Python 3.11), Amazon Aurora PostgreSQL, AWS Secrets Manager, CloudWatch, AWS CodeBuild, GitHub Actions, dbt (data transformations)
+**Tech Stack:** Amazon S3, Amazon SQS, AWS Lambda (Python 3.11), Amazon Aurora PostgreSQL, AWS Secrets Manager, CloudWatch, AWS CodeBuild, GitHub Actions, dbt
