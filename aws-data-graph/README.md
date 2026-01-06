@@ -1,4 +1,4 @@
-# AWS Serverless Research Portal with Graph Database
+# AWS Serverless Research Portal with Graph Database - 2024
 
 ## The Challenge
 
@@ -124,15 +124,13 @@ Cost per user: ~$9.54 (50 active users)
 
 **Game Changers**
 1. **Async processing was essential** - No way around Neptune's long query times
-2. **Terraform automation saved weeks** - 90% infrastructure automation prevented configuration drift
-3. **AWS managed services reduced complexity** - Neptune, Cognito, and Amplify eliminated custom solutions
-4. **Bulk data loading was 10x faster** - Neptune's bulk loader vs individual inserts
+2. **AWS managed services reduced complexity** - Neptune, Cognito, and Amplify eliminated custom solutions
 
 **Future Improvements**
 - Query result caching for repeated queries
 - Query cost estimation for users
 - Reserved Lambda concurrency for guaranteed capacity
-- Multi-region deployment for disaster recovery
+
 
 ## The Impact
 
