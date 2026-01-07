@@ -47,3 +47,6 @@ terraform.tfvars
 
 # AWS
 .aws/
+
+# Files starting with q-
+q-*
