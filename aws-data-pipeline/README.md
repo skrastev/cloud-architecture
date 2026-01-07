@@ -1,4 +1,4 @@
-# AWS Serverless File Processing Pipeline - 2024
+# AWS Serverless File Processing Pipeline
 
 ## The Challenge
 
