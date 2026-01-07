@@ -1,4 +1,4 @@
-# AWS Serverless Research Portal with Graph Database - 2024
+# AWS Serverless Research Portal with Graph Database
 
 ## The Challenge
 
